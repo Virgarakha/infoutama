@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Edu+SA+Beginner:wght@500&family=Lilita+One&family=Montserrat&family=Poppins:wght@300;700&family=REM&family=Rancho&family=Rock+Salt&family=Rowdies&family=Ysabeau+SC&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+    background-image: url(b.png);
+    min-height: 130vh;
+}
+
+html {
+    font-family: 'Monserrat' , sans-serif;
+}
+
+
+.navb {
+    z-index: 1;
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.navb2 h1 {
+
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.navb2 h2 {
+    padding-left: 10px;
+    color: crimson;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.nvbr ul li a {
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    margin-top: -30px;
+    color: white;
+    background-color: crimson;
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.nvbr ul li :hover {
+    background-color: white;
+    color: crimson;
+    transition: all .4s ease-in-out;
+}
+
+.isi {
+    margin-left: 40%;
+}
+
+.isi2 {
+    margin-left: 27px;
+}
+.isi2 img{
+    margin-top: 100px;
+    padding-top: 70px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.isi2 h1 {
+    color: white;
+    text-align: center;
+}
+
+.isi2 p {
+    color: white;
+    text-align: center;
+    padding: 0 50px;
+
+}
+
+.fitur {
+    background-color: rgb(43, 43, 43);
+    height: 300px;
+    width: 320px;
+    border-radius: 20px;
+}
+.isi3 img{
+    margin-top: 100px;
+    padding-top: 70px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.isi3 {
+    margin-left: 27px;
+}
+
+.isi3 h1 {
+    color: white;
+    text-align: center;
+}
+
+.isi3 h2 {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+
+.isi3 p {
+    color: white;
+    text-align: center;
+    padding: 0 50px;
+
+}
+
+.cont {
+    background-color: rgb(43, 43, 43);
+    height: 300px;
+    width: 320px;
+    border-radius: 20px;
+}
+.isi4 img{
+    margin-top: 100px;
+    padding-top: 80px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.isi4 {
+    margin-left: 27px;
+}
+
+.isi4 h1 {
+    color: white;
+    text-align: center;
+}
+
+.isi4 h2 {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+
+.isi4 p {
+    color: white;
+    text-align: center;
+    padding: 0 50px;
+
+}
+
+.fo {
+    background-color: rgb(43, 43, 43);
+    height: 300px;
+    width: 320px;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 1300px) {
+    .isi {
+        margin-left: 0%;
+    }
+    .isi2 {
+        margin-left: 27px;
+    }
+    .isi2 img{
+        margin-top: 100px;
+        padding-top: 70px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .isi2 h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .isi2 p {
+        color: white;
+        text-align: center;
+        padding: 0 50px;
+
+    }
+
+    .fitur {
+        background-color: rgb(43, 43, 43);
+        height: 300px;
+        width: 320px;
+        border-radius: 20px;
+    }
+    .isi3 img{
+        margin-top: 100px;
+        padding-top: 70px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .isi3 {
+        margin-left: 27px;
+    }
+
+    .isi3 h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .isi3 h2 {
+        color: white;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .isi3 p {
+        color: white;
+        text-align: center;
+        padding: 0 50px;
+
+    }
+
+    .cont {
+        background-color: rgb(43, 43, 43);
+        height: 300px;
+        width: 320px;
+        border-radius: 20px;
+    }
+    .isi4 img{
+        margin-top: 100px;
+        padding-top: 80px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .isi4 {
+        margin-left: 27px;
+    }
+
+    .isi4 h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .isi4 h2 {
+        color: white;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .isi4 p {
+        color: white;
+        text-align: center;
+        padding: 0 50px;
+
+    }
+
+    .fo {
+        background-color: rgb(43, 43, 43);
+        height: 300px;
+        width: 320px;
+        border-radius: 20px;
+    }
+}
+
+
+@media (max-width : 750px) {
+
+}
